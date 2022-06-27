@@ -13,6 +13,7 @@ class Admin extends Seeder
      *
      * @return void
      */
+    /**Data Base Seeder for User as Admin Info */
     public function run()
     {
         User::create([
