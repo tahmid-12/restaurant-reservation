@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
-use App\Models\User;
 
 class Admin extends Seeder
 {
@@ -13,7 +14,6 @@ class Admin extends Seeder
      *
      * @return void
      */
-    /**Data Base Seeder for User as Admin Info */
     public function run()
     {
         User::create([
